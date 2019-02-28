@@ -1,0 +1,7 @@
+{
+  "botApiKey": "12314523:asdsdgsjdfgnosg",
+  "mongooseConnection": "mongodb://localhost/TSOBot",
+  "server": "myts.com",
+  "port": "",
+  "queryPort": ""
+}
