@@ -1,7 +1,0 @@
-{
-  "botApiKey": "727803556:AAHdeqVNixN7QhRnddeegB5eGh8YicmTNB8",
-  "mongooseConnection": "mongodb://localhost/TSTGBot",
-  "server": "teamsp3ak.ru",
-  "port": "",
-  "queryPort": ""
-}
