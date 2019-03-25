@@ -1,53 +1,32 @@
 {
   "name": "ts3tgbot",
   "version": "1.0.0",
-  "description": "TeamSpeak 3 Telegram Bot",
+  "description": "Teamspeak 3 telegram server bot",
+  "main": "main.js",
+  "dependencies": {
+    "mongoose": "^5.4.4",
+    "node-telegram-bot-api": "^0.30.0",
+    "node-teamspeak": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wtfuii/TSOBot.git"
+    "url": "git+https://github.com/proxwian/ts3tgbot.git"
   },
-  "main": "main.js",
-  "scripts": {
-    "start": "node main.js"
-  },
-  "author": {
-    "name": "Anatoly Volokhov"
-  },
-  "license": "ISC",
-  "dependencies": {
-    "mongoose": ">=4.3.6",
-    "node-teamspeak": ">=1.0.10",
-    "node-telegram-bot-api": ">=0.19.2"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.4.0",
-    "babel-preset-es2015": "^6.3.13"
-  },
-  "gitHead": "a718569fd9c286ba4a01f0ea7d4ea884bdbdb1b7",
-  "bugs": {
-    "url": "https://github.com/wtfuii/TSOBot/issues"
-  },
-  "homepage": "https://github.com/wtfuii/TSOBot#readme",
-  "_id": "tsobot@1.0.3",
-  "_shasum": "b03687849cde1430d184ce5d80f813bc3af6c382",
-  "_from": "tsobot@",
-  "_npmVersion": "3.5.2",
-  "_nodeVersion": "4.2.3",
-  "_npmUser": {
-    "name": "proxwian",
-    "email": "proxwian@icloud.com"
-  },
-  "dist": {
-    "shasum": "b03687849cde1430d184ce5d80f813bc3af6c382",
-    "tarball": "https://registry.npmjs.org/tsobot/-/tsobot-1.0.3.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "proxwian",
-      "email": "proxwian@icloud.com"
-    }
+  "keywords": [
+    "telegram",
+    "teamspeak",
+    "bot",
+    "messaging",
+    "notifications"
   ],
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/tsobot/-/tsobot-1.0.3.tgz",
-  "readme": "ERROR: No README data found!"
+  "author": "Proxwian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proxwian/ts3tgbot/issues"
+  },
+  "homepage": "https://github.com/proxwian/ts3tgbot#readme"
 }
